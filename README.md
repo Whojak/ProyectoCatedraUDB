@@ -20,6 +20,16 @@ Para poder iniciar la aplicación es necesario tener en cuenta que la aplicació
 - Cuando estos datos estén ingresados aparecerá un mensaje con nuestro estado físico y se habilitara un plan de entrenamiento según su estado físico
 - Cuando arrojen esos datos se habilitarán las paginas secundarias para ver el plan de entrenamiento requerido.
 
+
+
+Guía de instalación: 
+
+-	Para poder trabajar con nuestra app se debe necesitar ser colaborador y clonar nuestro proyecto, las herramientas que se ocupan en la aplicación es HTML y JavaScript para la lógica además de usar herramientas como figma para los mockups 
+-	Nuestro repositorio cuenta con diferentes ramas para colaboradores que estén dispuestos a mejorar nuestra aplicación, por ende, pueden subir sus partes a sus ramas para no editar el main.
+-	Una vez funcionando el proyecto en cada rama del colaborador se sube a la rama prueba para hacer las pruebas necesarias de nuestra aplicación y una vez todo corra perfectamente se sube al main
+
+
+
 Autores:
 
 * Asdruval Alejandro Rivera Rodríguez RR222505 – Rama Asdruval 
@@ -29,5 +39,6 @@ Autores:
 * Zaidy Guadalupe Tobar Granados TG220840 – Rama Zaidy 
 
 
-- Licencia para el código de la herramienta: 
+Licencia para el código de la herramienta: 
+
 Se cuenta con la Licencia Creative Commons
