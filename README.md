@@ -9,6 +9,10 @@ La aplicación consiste en nuestro estado físico, ingresando nuestros datos tan
 Link de mockups: 
 https://www.figma.com/file/BDu547wYuHM0m2OrackqjM/Untitled?node-id=0%3A1
 
+Link documento:
+
+https://drive.google.com/drive/folders/1CzVfcVNIAi5cFCKQbGAz-CAC_IJzShFa?usp=sharing
+
 Guía de usuario: 
 
 Para poder iniciar la aplicación es necesario tener en cuenta que la aplicación cuenta con:
