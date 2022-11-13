@@ -6,8 +6,11 @@ Descripción y contexto:
 
 La aplicación consiste en nuestro estado físico, ingresando nuestros datos tanto como estatura y peso para tener un control de salud del mismo. Permitiendo así la creación de rutinas de ejercicio ya sean enfocados en déficit calórico, superávit calórico o recomposición corporal, para cumplir metas establecidas de acuerdo a los índices de salud o peso.
 
-Link de mockups: 
+Link de mockups UX: 
 https://www.figma.com/file/BDu547wYuHM0m2OrackqjM/Untitled?node-id=0%3A1
+
+Link de mockups UI:
+https://www.figma.com/file/BDu547wYuHM0m2OrackqjM/Untitled?node-id=36%3A20
 
 Link documento:
 
