@@ -2,76 +2,47 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Login & Signup</title>
+	<title>ZomiWho - Registrate</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta  name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div class="wrapper">
-		<div class="title-text">
-			<div class="title login">Login Form</div>
-			<div class="title signup">Signup Form</div>
+	<div class="container">
+		<div class="header">
+			<h2>Registro de usuario de Zomiwho</h2>
 		</div>
-
-			<div class="form-container">
-				<div class="slide-controls">
-					<input type="radio" name="slider" id="login">
-					<input type="radio" name="slider" id="signup">
-					<label for="" class="slide login">Login</label>
-					<label for="" class="slide signup">Singup</label>
-					<div class="slide-tab"></div>
-				</div>
-			 	<div class="form-inner">
-					<form class="login" action="#">
-						<div class="field">
-							<input type="text" placeholder="Email Address" required="">
-						</div>
-						<div class="field">
-							<input type="password" placeholder="Password" required="">
-						</div>
-						<div class="pass-link"><a href="#">Forgot password</a></div>
-						<div class="field">
-							<input type="submit" value="Login">
-						</div>
-						<div class="signup-link">Not a member?<a href="#">Signup now</a></div>
-					</form>
-					<form class="signup" action="#">
-						<div class="field">
-							<input type="text" placeholder="Email Address" required="">
-						</div>
-						<div class="field">
-							<input type="number" placeholder="Enter your weight in kg" required="">
-						</div>
-						<div class="field">
-							<input type="password" placeholder="Password" required="">
-						<div class="field">
-						<input type="submit" value="Signup">
-						</div>
-					</form>
-				</div>
+		<form class="form" id="form">
+			<div class="form-control success">
+				<label>Nombre:</label>
+				<input type="text" placeholder="Colocar nombre" id="username" onclick="redirigir()" >
+				<i class="fas fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small>Colocar nombre</small>
 			</div>
-	</div>
-	<script type="text/javascript">
-		const loginForm = document.querySelector("form.login");
-		const signupForm = document.querySelector("form.signup");
-		const loginBtn = document.querySelector("label.login");
-		const signupBtn = document.querySelector("label.signup");
-		const signupLink = document.querySelector(".signup-link a");
-		const loginText = document.querySelector(".title-text .login");
-		const signupText = document.querySelector(".title-text .signup");
-		signupBtn.onclick =(() =>{
-			loginForm.style.marginLeft = "-50%";
-			loginText.style.marginLeft = "-50%";
-		});
-		loginBtn.onclick =(() =>{
-			loginForm.style.marginLeft = "0%";
-			loginText.style.marginLeft = "0%";
+			<div class="form-control error">
+				<label>Email:</label>
+				<input type="email" placeholder="Colocar correo electronico" id="email" onclick="redirigir()" >
+				<i class="fas fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small>Colocar email</small>
+			</div>
+			<div class="form-control">
+				<label>Fecha de nacimiento:</label>
+				<input type="date" placeholder="Colocar fecha de nacimiento" id="date" onclick="redirigir()" >
+				<i class="fas fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small>Colocar fecha de nacimiento</small>
+			</div>
+			<div class="form-control">
+				<label>Contraseña:</label>
+				<input type="password" placeholder="Colocar contraseña" id="password" onclick="redirigir()"  >
+				<i class="fas fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small>Colocar contraseña</small>
+			</div>
 
-		});
-		signupLink.onclick = (()=>{
-			signupBtn.click();
-			return false;
-		});
-	</script>
+			<button id="submitButton" onclick=" redirigir2()" disabled>Ingresar</button>
+		</form>
+	</div>
+	<script type="text/javascript" src="java.js"></script>
 </body>
 </html>

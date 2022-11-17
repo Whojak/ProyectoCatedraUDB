@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+div#general{
+    width: 100%;
+    height: 1070px;
+    background: url(Fitness.jpg)no-repeat;
+    background-size: contain;
+}
+
+div#encabezado{
+    width: 1900px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+div#lateral{
+    margin-top: 50px;
+    float: right;
+    width: 300px;
+    height: 800px;
+    background-color: coral;
+
+}
+
+div#central{
+    margin-top: 50px;
+    width: 1590px;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+div#bajo{
+    margin-top: 10px;
+    width: 1900px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    align-self: flex-end;
+    height: 50px;
+    width: 1900px;
+}
+
+footer h2{
+    color: aliceblue;
+}
+
+.box{
+    width: 20%;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 380%;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    border: 1px solid #fff;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.box h6{
+    text-align: center;
+    color: black;
+}
+
+div#ofertas{
+    float: right;
+    margin-top: 90px;
+    width: 310px;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(236, 236, 236);
+    backdrop-filter: blur(10px);
+}
+
+.quees{
+    width: 280px;
+    height: 200px;
+    background: white;
+    opacity: 80%;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    border: 1px solid #fff;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+p{
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+
+}
+
+.btnGrande{
+background-color: rgba(255, 255, 255, 0.1);
+color: white;
+border-radius: 5px;
+height: 80px;
+width: 300px;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
