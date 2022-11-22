@@ -42,7 +42,6 @@ Autores:
 
 * Asdruval Alejandro Rivera Rodríguez RR222505 – Rama Asdruval 
 * Marjorie Priscilla García López GL210102 – Rama Marjorie 
-* Miguel Alexander Pérez Ramírez PR222602 – Rama Mikepro1211
 * Rodrigo Raúl Rodriguez Gómez RG220673 – Rama Whojak 
 * Zaidy Guadalupe Tobar Granados TG220840 – Rama Zaidy 
 
